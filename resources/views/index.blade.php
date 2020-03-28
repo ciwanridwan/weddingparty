@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Wedding &mdash; Party</title>
+    <title>Wedding Organizer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -79,9 +79,9 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <p>Hey there! I'm Developer</p>
-              <h1 class="mb-3 text-primary">Wedding &amp; Party</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
+              <p>Halo, Selamat Datang</p>
+              <h1 class="mb-3 text-primary"> Information Wedding Organizer</h1>
+              <p> Semua informasi tentang toko Wedding organizer ada disini, yuk scroll ke bawah ya!</p>
               <p><a href="#" class="btn btn-primary">Contact Me</a></p>
             </div>
           </div>
@@ -95,8 +95,8 @@
 
         <div class="row mb-5 ">
           <div class="col-md-7 text-center mx-auto">
-            <span class="subtitle-39293">My Works</span>
-            <h2 class="serif">See My Works</h2>
+            <span class="subtitle-39293">Lihat Semua Informasi Toko Wedding Organizer</span>
+            <h2 class="serif">Scroll Ke Bawah Ya!</h2>
           </div>
         </div>
        
@@ -106,12 +106,41 @@
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_1.jpg')}}">
             </a>
-          </div>
+            <div class="grid-12 wp">
+				<h1 itemprop="name">K Link Grand Ballroom by HIS</h1>
+				<meta itemprop="url" content=""/>
+				<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+				<meta itemprop="streetAddress" content="K-Link Tower<br>PT. Mitra Alam Sinar Sejahtera, Lantai 11 D<br>Jl. Jend. Gatot Subroto No. 59A" />
+				<meta itemprop="addressLocality" content="Jakarta Selatan" />
+				<meta itemprop="addressRegion" content="" /> 
+				</span>
+				<div class="review" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+					<a href="https://www.weddingku.com/wedding-vendors/venue-restaurant/k-link-tower/review"><span itemprop="ratingValue" content="4.4"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span> <span itemprop="reviewCount">13 (Reviews) </span> </a>			
+				</div>
+				<div id="vendor-category" text-align="center">Wedding Organizer, Value And Restaurant</div>
+				<p class="stat location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Jakarta Selatan</p>
+			    </div>
+        </div>
+
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="{{ asset('capture/images/img_2.jpg')}}" class="item-wrap" data-fancybox="gal">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_2.jpg')}}">
             </a>
+            <div class="grid-12 wp">
+				<h1 itemprop="name">Agung Decoration & Wedding Organizer</h1>
+				<meta itemprop="url" content=""/>
+				<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+				<meta itemprop="streetAddress" content="K-Link Tower<br>PT. Mitra Alam Sinar Sejahtera, Lantai 11 D<br>Jl. Jend. Gatot Subroto No. 59A" />
+				<meta itemprop="addressLocality" content="Jakarta Selatan" />
+				<meta itemprop="addressRegion" content="" /> 
+				</span>
+				<div class="review" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+					<a href="http://www.agungdecoration.com/Weddingsorgs"><span itemprop="ratingValue" content="4.4"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span> <span itemprop="reviewCount">19 (Reviews) </span> </a>			
+				</div>
+				<div id="vendor-category" text-align="center">Wedding Organizer And Decoration</div>
+				<p class="stat location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Jakarta Selatan</p>
+			    </div>
           </div>
 
           <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
@@ -119,6 +148,20 @@
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_3.jpg')}}">
             </a>
+            <div class="grid-12 wp">
+				<h1 itemprop="name">Dinda Sakato</h1>
+				<meta itemprop="url" content=""/>
+				<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+				<meta itemprop="streetAddress" content="K-Link Tower<br>PT. Mitra Alam Sinar Sejahtera, Lantai 11 D<br>Jl. Jend. Gatot Subroto No. 59A" />
+				<meta itemprop="addressLocality" content="Jakarta Selatan" />
+				<meta itemprop="addressRegion" content="" /> 
+				</span>
+				<div class="review" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+					<a href="https://www.dindasakato.com/"><span itemprop="ratingValue" content="4.4"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></span> <span itemprop="reviewCount">19 (Reviews) </span> </a>			
+				</div>
+				<div id="vendor-category" text-align="center">Dinda Sakato, Wedding Organizer & Solutions</div>
+				<p class="stat location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Jakarta Selatan</p>
+			    </div>
           </div>
 
           <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">

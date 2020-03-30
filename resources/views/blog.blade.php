@@ -2,24 +2,24 @@
 <html lang="en">
 
   <head>
-    <title>Capture &mdash; Website Template by Colorlib</title>
+    <title>Wedding &mdash; Party</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Muli:400,700|Hepta+Slab:400,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{{ asset ('capture/fonts/icomoon/style.css')}}">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{{ asset('capture/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/jquery.fancybox.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/fonts/flaticon/font/flaticon.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/aos.css')}}">
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('capture/css/style.css')}}">
 
   </head>
 
@@ -46,7 +46,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="index.html" class="font-weight-bold">Capture</a>
+                <a href="{{ route('index')}}" class="font-weight-bold">Capture</a>
               </div>
             </div>
 
@@ -59,11 +59,11 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="photography.html" class="nav-link">Photography</a></li>
-                  <li class="active"><a href="blog.html" class="nav-link">Event</a></li>
-                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                  <li><a href="{{ route('index')}}" class="nav-link">Home</a></li>
+                  <li><a href="{{ route('about')}}" class="nav-link">About</a></li>
+                  <li><a href="{{ route('photography')}}" class="nav-link">Photography</a></li>
+                  <li class="active"><a href="{{ route('blog')}}" class="nav-link">Event</a></li>
+                  <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -75,7 +75,7 @@
       </header>
 
     <div class="ftco-blocks-cover-1">
-      <div class="site-section-cover overlay" style="background-image: url('images/hero_1.jpg')">
+      <div class="site-section-cover overlay" style="background-image: url('capture/images/hero_1.jpg')">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
@@ -105,13 +105,13 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
-                <img src="images/img_1.jpg" alt="Image"
+              <a href="{{ route('single')}}">
+                <img src="{{ asset ('capture/images/img_1.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="{{ route('single')}}">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -119,28 +119,13 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
-                <img src="images/img_2.jpg" alt="Image"
+              <a href="{{ route('single')}}">
+                <img src="{{ asset ('capture/images/img_2.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
-                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="post-entry-1 h-100">
-              <a href="single.html">
-                <img src="images/img_3.jpg" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="{{ route('single')}}">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -149,27 +134,13 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
-                <img src="images/img_1.jpg" alt="Image"
+              <a href="{{ route('single')}}">
+                <img src="{{ asset('capture/images/img_3.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
-                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="post-entry-1 h-100">
-              <a href="single.html">
-                <img src="images/img_2.jpg" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="{{ route('single')}}">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -178,13 +149,42 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
-                <img src="images/img_3.jpg" alt="Image"
+              <a href="{{ route('single')}}">
+                <img src="{{ asset ('capture/images/img_1.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="{{ route('single')}}">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="{{ route('single')}}">
+                <img src="{{ asset('capture/images/img_2.jpg')}}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="{{ route('single')}}">Lorem ipsum dolor sit amet</a></h2>
+                <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="{{ route('single')}}">
+                <img src="{{ asset('capture/images/img_3.jpg')}}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="{{ route('single')}}">Lorem ipsum dolor sit amet</a></h2>
                 <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -253,22 +253,22 @@
 
     </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/aos.js"></script>
-
-    <script src="js/main.js"></script>
+    <script src="{{ asset ('capture/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/jquery-migrate-3.0.0.js')}}"></script>
+    <script src="{{ asset ('capture/js/popper.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/jquery.sticky.js')}}"></script>
+    <script src="{{ asset ('capture/js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/jquery.animateNumber.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/jquery.fancybox.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/jquery.stellar.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/jquery.easing.1.3.js')}}"></script>
+    <script src="{{ asset ('capture/js/bootstrap-datepicker.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ asset ('capture/js/aos.js')}}"></script asset >
+capture/
+    <script src="{{ asset ('capture/js/main.js')}}"></script>
 
   </body>
 

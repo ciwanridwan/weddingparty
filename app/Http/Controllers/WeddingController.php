@@ -7,6 +7,18 @@ use PhpParser\Node\Expr\FuncCall;
 
 class WeddingController extends Controller
 {
+    public function isiPaket()
+    {
+        return view('isi-paket');
+    }
+    public function detailPaket()
+    {
+        return view('detail-paket');
+    }
+    public function daftarPaket()
+    {
+        return view('daftar-paket');
+    }
     public function blog()
     {
         return view('blog');

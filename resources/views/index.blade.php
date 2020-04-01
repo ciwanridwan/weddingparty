@@ -100,7 +100,7 @@
           </div>
         </div>
        
-        <div id="posts" class="row no-gutter">
+        <!-- <div id="posts" class="row no-gutter">
           <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="{{ asset('capture/images/img_1.jpg')}}" class="item-wrap" data-fancybox="gal">
               <span class="icon-search2"></span>
@@ -141,14 +141,15 @@
 				<div id="vendor-category" text-align="center">Wedding Organizer And Decoration</div>
 				<p class="stat location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Jakarta Selatan</p>
 			    </div>
-          </div>
+          </div> --->
 
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <!-- <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4"> 
             <a href="{{ asset('capture/images/img_3.jpg')}}" class="item-wrap" data-fancybox="gal">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_3.jpg')}}">
             </a>
             <div class="grid-12 wp">
+        
 				<h1 itemprop="name">Dinda Sakato</h1>
 				<meta itemprop="url" content=""/>
 				<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
@@ -162,78 +163,16 @@
 				<div id="vendor-category" text-align="center">Dinda Sakato, Wedding Organizer & Solutions</div>
 				<p class="stat location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Jakarta Selatan</p>
 			    </div>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_4.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_4.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_5.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_5.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_6.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_6.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_1.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_1.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_2.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_2.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_3.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_3.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_4.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_4.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_5.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_5.jpg')}}">
-            </a>
-          </div>
-
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-            <a href="{{ asset('capture/images/img_6.jpg')}}" class="item-wrap" data-fancybox="gal">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="{{ asset ('capture/images/img_6.jpg')}}">
-            </a>
-          </div>
+          </div> -->
 
 
         </div>
       </div>
-    </div> <!-- END .site-section -->
+    </div>  
+    <!-- END .site-section -->
     
 
-   <div class="site-section bg-black about-me">
+    <!-- <div class="site-section bg-black about-me">
      <div class="container">
        <div class="row align-items-center">
          <div class="col-md-6 mb-5 mb-md-0">
@@ -352,18 +291,18 @@
             <span class="subtitle-39293">News</span>
             <h2 class="serif">Events</h2>
           </div>
-        </div>
+        </div> -->
 
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
               <a href="single.html">
-                <img src="{{ asset ('capture/images/img_1.jpg')}}" alt="Image"
+                <img src="{{ asset ('capture/poto/His/8.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.html">HIS Wedding</a></h2>
                 <span class="meta d-inline-block mb-3">April 17, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -372,12 +311,12 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
               <a href="single.html">
-                <img src="{{ asset ('capture/images/img_2.jpg')}}" alt="Image"
+                <img src="{{ asset ('capture/poto/Agung/1.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.html">Agung Wedding</a></h2>
                 <span class="meta d-inline-block mb-3">Mei 11, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
@@ -387,12 +326,54 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
               <a href="single.html">
-                <img src="{{ asset ('capture/images/img_3.jpg')}}" alt="Image"
+                <img src="{{ asset ('capture/poto/Hera/4.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Lorem ipsum dolor sit amet</a></h2>
+                <h2><a href="single.html">Hera Organizer</a></h2>
+                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="{{ asset ('capture/poto/Keane/1.jpg')}}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Keane Wedding</a></h2>
+                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="{{ asset ('capture/poto/Pangeran/2.jpg')}}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Pangeran Wedding</a></h2>
+                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="{{ asset ('capture/poto/Pangeran/9.jpg')}}" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="single.html">Dinda Sakato Organizer</a></h2>
                 <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>

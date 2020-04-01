@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Wedding &mdash; Party</title>
+    <title>Daftar Paket</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,6 +20,16 @@
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="{{ asset('capture/css/style.css')}}">
+    <!-- Stylesheets -->
+	<link rel="stylesheet" href="{{ asset('glamour/css/bootstrap.min.css')}}"/>
+	<!-- <link rel="stylesheet" href="{{ asset('glamour/css/font-awesome.min.css')}}"/>
+	<link rel="stylesheet" href="{{ asset('glamour/css/owl.carousel.min.css')}}"/>
+	<link rel="stylesheet" href="{{ asset('glamour/css/flaticon.css')}}"/>
+	<link rel="stylesheet" href="{{ asset('glamour/css/magnific-popup.css')}}"/> -->
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="{{ asset('glamour/css/style.css')}}"/>
+
 
   </head>
 
@@ -79,9 +89,9 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <h1 class="mb-3 text-primary">Photography Works</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
-              <p><a href="#" class="btn btn-primary">Contact Me</a></p>
+              <h1 class="mb-3 text-primary">Daftar Paket</h1>
+              <p> Silahkan Liat Daftar Paketnya Dibawah Ya!.</p>
+              <!-- <p><a href="#" class="btn btn-primary">Contact Me</a></p> -->
             </div>
           </div>
         </div>
@@ -91,8 +101,64 @@
 
   
     
-
-    <div class="site-section">
+    <section class="shop-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-sm-6">
+					<div class="shop-item">
+						<img src="{{ asset ('capture/images/img_1.jpg')}}" alt="">
+            <h2>Silver</h2>
+            <h3>Rp 7.500.000</h3>
+            <h3>6 Crew WO</h3>
+            <h3>+- 350 undangan</h3>
+            <h3>Half Day</h3>
+            <h3>(8 Jam Kerja)</h3>
+						<!-- <h6>$235</h6> -->
+						<a href="" class="add-card">Beli Paket</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="shop-item">
+						<img src="{{ asset ('capture/images/img_2.jpg')}}" alt="">
+            <h2>Gold</h2>
+            <h3>Rp 9.500.000</h3>
+            <h3>8 Crew WO</h3>
+            <h3>+- 450 undangan</h3>
+            <h3>Half Day</h3>
+            <h3>(8 Jam Kerja)</h3>
+            <!-- <h3>Black Dress</h3>
+						<h6>$235</h6> -->
+						<a href="" class="add-card">Add to cart</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="shop-item">
+						<img src="{{ asset ('capture/images/img_3.jpg')}}" alt="">
+            <h2>Platinum</h2>
+            <h3>Rp 12.500.000</h3>
+            <h3>10 Crew WO</h3>
+            <h3>+- 6000 undangan</h3>
+            <h3>Half Day</h3>
+            <h3>(8 Jam Kerja)</h3>
+            <!-- <h3>White Shirt</h3>
+						<h6>$235</h6> -->
+						<a href="" class="add-card">Add to cart</a>
+					</div>
+				</div>
+				<!-- <div class="col-lg-3 col-sm-6">
+					<div class="shop-item">
+						<img src="img/shop/4.jpg" alt="">
+						<h3>Trousers</h3>
+						<h6>$235</h6>
+						<a href="" class="add-card">Add to cart</a>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</section>
+	<!-- Shop section end -->
+	
+    <!-- <div class="site-section">
       <div class="container">
 
         <div id="posts" class="row no-gutter">
@@ -102,22 +168,47 @@
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_1.jpg')}}">
             </a>
-          </div>
-          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <h1 style="text-align:center;">Silver</h1>
+            <br>
+            <h3 style="text-align:center;">Rp 7.500.000</h3>
+            <h4 style="text-align:center;">6 Crew WO</h4>
+            <h4 style="text-align:center;">+- 350 undangan</h4>
+            <h4 style="text-align:center;">Half Day</h4>
+            <h4 style="text-align:center;">(8 Jam kerja)</h4> -->
+            <!-- <button type="button">Beli Paket</button> -->
+          <!-- </div> -->
+
+          <!-- <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="{{ asset('capture/images/img_2.jpg')}}" class="item-wrap" data-fancybox="gal">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_2.jpg')}}">
             </a>
-          </div>
+            <h1 style="text-align:center;">Gold</h1>
+            <br>
+            <h3 style="text-align:center;">Rp 9.500.000</h3>
+            <h4 style="text-align:center;">8 Crew WO</h4>
+            <h4 style="text-align:center;">+- 450 undangan</h4>
+            <h4 style="text-align:center;">Half Day</h4>
+            <h4 style="text-align:center;">(8 Jam kerja)</h4>
+            <button type="button">Beli Paket</button>
+          </div> -->
 
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <!-- <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="{{ asset('capture/images/img_3.jpg')}}" class="item-wrap" data-fancybox="gal">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_3.jpg')}}">
             </a>
-          </div>
+            <h1 style="text-align:center;">Platinum</h1>
+            <br>
+            <h3 style="text-align:center;">Rp 12.500.000 </h3>
+            <h4 style="text-align:center;">10 Crew WO</h4>
+            <h4 style="text-align:center;">+- 600 undangan</h4>
+            <h4 style="text-align:center;">Half Day</h4>
+            <h4 style="text-align:center;">(8 Jam kerja)</h4>
+            <button type="button">Beli Paket</button>
+          </div> -->
 
-          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <!-- <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="{{ asset('capture/images/img_4.jpg')}}" class="item-wrap" data-fancybox="gal">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_4.jpg')}}">
@@ -129,9 +220,9 @@
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_5.jpg')}}">
             </a>
-          </div>
+          </div> -->
 
-          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+          <!-- <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
             <a href="{{ asset('capture/images/img_6.jpg')}}" class="item-wrap" data-fancybox="gal">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_6.jpg')}}">
@@ -178,13 +269,13 @@
               <span class="icon-search2"></span>
               <img class="img-fluid" src="{{ asset ('capture/images/img_6.jpg')}}">
             </a>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div>
       </div>
-    </div>
+    </div> -->
   
 
-    <div class="site-section">
+    <!-- <div class="site-section">
       <div class="container">
         <div class="row mb-5 ">
           <div class="col-md-7 text-center mx-auto">
@@ -202,11 +293,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     
 
-    <footer class="site-footer">
+    <!-- <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
@@ -239,17 +330,39 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <div class="border-top pt-5">
-              <p>
+              <p> -->
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> -->
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
+            <!-- </p>
             </div>
           </div>
 
         </div>
       </div>
-    </footer>
+    </footer> -->
+    <!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-9 col-lg-8 col-md-7 order-md-1 order-2">
+					<img src="img/logo-dark.png" alt="" class="footer-logo">
+					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-5 order-md-2 order-1">
+					<ul class="footer-contact-list">
+						<li><span>Address:</span>Main Str, no 23, New York</li>
+						<li><span>Phone:</span>+546 990221 123</li>
+						<li><span>Mail:</span>model@contact.com</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
 
     </div>
 
@@ -269,6 +382,14 @@
     <script src="{{ asset ('capture/js/aos.js')}}"></script>
  
     <script src="{{ asset ('capture/js/main.js')}}"></script>
+
+  <script src="{{ asset ('glamour/js/jquery-3.2.1.min.js')}}"></script>
+	<script src="{{ asset ('glamour/js/bootstrap.min.js')}}"></script>
+	<script src="{{ asset ('glamour/js/jquery.magnific-popup.min.js')}}"></script>
+	<script src="{{ asset ('glamour/js/owl.carousel.min.js')}}"></script>
+	<script src="{{ asset ('glamour/js/isotope.pkgd.min.js')}}"></script>
+	<script src="{{ asset ('glamour/js/circle-progress.min.js')}}"></script>
+	<script src="{{ asset ('glamour/js/main.js')}}"></script>
 
   </body>
 

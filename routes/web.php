@@ -29,3 +29,4 @@ Route::get('detail-paket', 'WeddingController@detailPaket')->name('detail-paket'
 Route::post('form-paket', 'WeddingController@store')->name('store');
 Route::get('form-paket', 'WeddingController@create')->name('form-paket');
 
+

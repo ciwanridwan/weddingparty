@@ -120,7 +120,7 @@
             <h3 style="text-align:center;">+- 350 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <button href="{{ route('detail-paket')}}" style="text-align:center;" width="30px" type="submit">Beli Paket</button>  
+            <a href="{{ route('detail-paket')}}" class="btn btn-primary" type="submit">Beli Paket</a>  
             </div>
             </div>
           </div>
@@ -141,7 +141,7 @@
             <h3 style="text-align:center;">+- 450 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <button href="{{ route('detail-paket')}}" style="text-align:center;" width="30px" type="submit">Beli Paket</button>
+            <a href="{{ route('detail-paket')}}" class="btn btn-primary" type="submit">Beli Paket</a>
             </div>
             </div>
           </div>
@@ -163,7 +163,7 @@
             <h3 style="text-align:center;">+- 600 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <button href="{{ url('detail-paket')}}" style="text-align:center;" width="30px" type="submit">Beli Paket</button>
+            <a href="{{ route('detail-paket')}}" type="submit" class="btn btn-primary">Beli Paket</a>
             </div>
             </div>
           </div>

@@ -61,8 +61,8 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li class="active"><a href="{{ route('index')}}" class="nav-link">Home</a></li>
                   <li><a href="{{ route('about')}}" class="nav-link">About</a></li>
-                  <li><a href="{{ route('photograpy')}}" class="nav-link">Photography</a></li>
-                  <li><a href="{{ route('event')}}" class="nav-link">Event</a></li>
+                  <li><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
+                  <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
                   <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
@@ -92,7 +92,6 @@
 
     <div class="site-section">
       <div class="container">
-
         <div class="row mb-5 ">
           <div class="col-md-7 text-center mx-auto">
             <span class="subtitle-39293">Lihat Semua Informasi Toko Wedding Organizer</span>
@@ -385,6 +384,7 @@
 
     <footer class="site-footer">
       <div class="container">
+        @yield('konten')
         <div class="row">
           <div class="col-lg-3">
             <h2 class="footer-heading mb-3">About Me</h2>

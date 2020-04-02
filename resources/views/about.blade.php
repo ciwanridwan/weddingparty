@@ -60,9 +60,9 @@
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li><a href="{{ route('index')}}" class="nav-link">Home</a></li>
-                  <li class="active"><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="{{ route('photograpy')}}" class="nav-link">Photography</a></li>
-                  <li><a href="{{ route('blog')}}" class="nav-link">Event</a></li>
+                  <li class="active"><a href="{{ route('about')}}" class="nav-link">About</a></li>
+                  <li><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
+                  <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
                   <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
                 </ul>
               </nav>

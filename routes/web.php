@@ -26,3 +26,6 @@ Route::get('blog', 'WeddingController@blog')->name('blog');
 
 Route::get('daftar-paket', 'WeddingController@daftarPaket')->name('daftar-paket');
 Route::get('detail-paket', 'WeddingController@detailPaket')->name('detail-paket');
+Route::post('form-paket', 'WeddingController@store')->name('store');
+Route::get('form-paket', 'WeddingController@create')->name('form-paket');
+

@@ -295,28 +295,28 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="{{ route('daftar-paket')}}">
                 <img src="{{ asset ('capture/poto/His/8.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">HIS Wedding</a></h2>
-                <span class="meta d-inline-block mb-3">April 17, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <h2><a href="{{ route('daftar-paket')}}">HIS Wedding</a></h2>
+                <span class="meta d-inline-block mb-3">April 17, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="{{ route('daftar-paket')}}">
                 <img src="{{ asset ('capture/poto/Agung/1.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Agung Wedding</a></h2>
-                <span class="meta d-inline-block mb-3">Mei 11, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <h2><a href="{{ route('daftar-paket')}}">Agung Wedding</a></h2>
+                <span class="meta d-inline-block mb-3">Mei 11, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>
@@ -324,56 +324,56 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="{{ route('daftar-paket')}}">
                 <img src="{{ asset ('capture/poto/Hera/4.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Hera Organizer</a></h2>
-                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <h2><a href="{{ route('daftar-paket')}}">Hera Organizer</a></h2>
+                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="{{ route('daftar-paket')}}">
                 <img src="{{ asset ('capture/poto/Keane/1.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Keane Wedding</a></h2>
-                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <h2><a href="{{ route('daftar-paket')}}">Keane Wedding</a></h2>
+                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="{{ route('daftar-paket')}}">
                 <img src="{{ asset ('capture/poto/Pangeran/2.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Pangeran Wedding</a></h2>
-                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <h2><a href="{{ route('daftar-paket')}}">Pangeran Wedding</a></h2>
+                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="single.html">
+              <a href="{{ route('daftar-paket')}}">
                 <img src="{{ asset ('capture/poto/Pangeran/9.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="single.html">Dinda Sakato Organizer</a></h2>
-                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <h2><a href="{{ route('daftar-paket')}}">Dinda Sakato Organizer</a></h2>
+                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
               </div>
             </div>

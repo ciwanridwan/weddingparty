@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Wedding &mdash; Party</title>
+    <title>Detail Paket</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -79,7 +79,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <h1 class="mb-3 text-primary">Detail Paket</h1>
+              <h1 class="mb-3 text-primary">Lihat Isi Detail Paket</h1>
               <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p> -->
               <p><a href="#" class="btn btn-primary">Contact Me</a></p>
             </div>

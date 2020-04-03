@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Wedding;
 use Illuminate\Http\Request;
 use PhpParser\Node\Expr\FuncCall;
 
@@ -56,7 +57,7 @@ class WeddingController extends Controller
      */
     public function create()
     {
-        //
+        return view('form-paket');
     }
 
     /**
@@ -67,7 +68,16 @@ class WeddingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            'nama_lengkap' => 'required|unique:weddings|max:255',
+            'alamat_rumah' => 'required',
+            'tanggal_resepsi' => 'required|date',
+            'jumlah_undangan' => 'required|numeric',
+            'tempat_acara' => 'required',
+        ]);
+        $wedding = Wedding::Create($validatedData);
+
+        return view('oke')->with('Success, Selamat Data Berhasil Ditambah');
     }
 
     /**

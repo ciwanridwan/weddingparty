@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Wedding &mdash; Party</title>
+    <title>Wedding Organizer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -60,9 +60,9 @@
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li><a href="{{ route('index')}}" class="nav-link">Home</a></li>
-                  <li class="active"><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="{{ route('photograpy')}}" class="nav-link">Photography</a></li>
-                  <li><a href="{{ route('blog')}}" class="nav-link">Event</a></li>
+                  <li class="active"><a href="{{ route('about')}}" class="nav-link">About</a></li>
+                  <li><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
+                  <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
                   <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
@@ -80,8 +80,8 @@
           <div class="row align-items-center">
             <div class="col-md-7">
               <h1 class="mb-3 text-primary">About Us</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
-              <p><a href="#" class="btn btn-primary">Contact Me</a></p>
+              <p>Menyediakan Berbagai Informasi Seputar Toko Wedding Organizer Yang Ada Di Jakarta Selatan.</p>
+              <p><a href="{{ route('contact')}}" class="btn btn-primary">Contact Me</a></p>
             </div>
           </div>
         </div>

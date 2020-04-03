@@ -2,13 +2,13 @@
 <html lang="en">
 
   <head>
-    <title>Detail Paket</title>
+    <title>Wedding Organizer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Muli:400,700|Hepta+Slab:400,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/fonts/icomoon/style.css')}}">
 
     <link rel="stylesheet" href="{{ asset('capture/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('capture/css/bootstrap-datepicker.css')}}">
@@ -59,10 +59,10 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li><a href="{{ route('index')}}" class="nav-link">Home</a></li>
-                  <li><a href="{{ route('about')}}" class="nav-link">About</a></li>
-                  <li class="active"><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
-                  <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
+                    <li><a href="{{ route('index')}}" class="nav-link">Home</a></li>
+                    <li><a href="{{ route('about')}}" class="nav-link">About</a></li>
+                    <li><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
+                    <li class="active"><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
                   <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
@@ -75,74 +75,26 @@
       </header>
 
     <div class="ftco-blocks-cover-1">
-      <div class="site-section-cover overlay" style="background-image: url('capture/images/hero_1.jpg')">
+      <div class="site-section-cover overlay" style="background-color:grey;">
+      <!-- <div class="site-section-cover overlay" style="background-image: url('capture/images/hero_1.jpg')"> -->
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <h1 class="mb-3 text-primary">Lihat Isi Detail Paket</h1>
-              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p> -->
-              <p><a href="#" class="btn btn-primary">Contact Me</a></p>
+              <!-- <p>Halo, Selamat Datang</p> -->
+              <h1 class="mb-3 text-primary"> Terimasih Sudah Registrasi</h1>
+              <h3 class="mb-3 text-primary"> Silahkan Transfer Ke No.Rekening 2019488292 A.N Biduanto, DP 30% Sebagai Tanda Jadi.</h3>
+              <h3 class="mb-3 text-primary"> Harap Kirim Bukti Ke Nomor WA 081385433322</h3>
+              <!-- <p> Semua informasi tentang toko Wedding organizer ada disini, yuk scroll ke bawah ya!</p> -->
+              <!-- <p><a type="button" class="btn btn-primary" href="https://api.whatsapp.com/send?phone=6281385433322&text=Hai%20saya%20{$nama}%20ingin%20memesan%20Wedding%20Organizer%20untuk%20tanggal%20{$tanggal}%20dan%20untuk%20{$jumUndangan}%20undangan,%20lokasi%20berada%20di%20alamat%20{$alamat}">Kirim Bukti</a></p> -->
+              <p><button type="button" class="btn btn-primary" id="btnWa" value="Whatsapp"> Kirim Bukti </button></p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-
-  
-    
-
-   <div class="site-section bg-black about-me">
-     <div class="container">
-       <div class="row align-items-center">
-         <div class="col-md-6 mb-5 mb-md-0">
-           <img src="{{ asset ('capture/poto/Pangeran/7.jpg')}}" alt="Image" class="img-fluid">
-         </div>
-         <div class="col-md-5 ml-auto">
-           <h3 class="text-white mb-5">Isi Paket</h3>
-           <blockquote class="quote-29281">
-            <p>1. Menjadi mediator antara calon pengantin, panitia acara dan para vendor. <br>2. Pembuatan rundown acara. <br>3. Pelaksanaan Tehnical Meeting, dengan keluarga, panitia acara dan vendor. 
-            <br>4. Pengaturan langsung terhadap jalannya acara. <br>5. Pemantauan terhadap akurasi pekerjaan para vendor.
-        </p>
-           </blockquote>
-           <a href="{{ route('form-paket')}}" type="submit" class="btn btn-primary"> Booking Now </a>
-           <!-- <p>4. Pengaturan langsung terhadap jalannya acara. <br>5. Pemantauan terhadap akurasi pekerjaan para vendor.</p> -->
-           <!-- <p>Omnis, aspernatur, incidunt cum quo, nisi harum ea earum suscipit delectus explicabo unde saepe commodi modi fugiat nihil sint nam. Ullam, esse totam mollitia molestias ipsum odio aperiam, officiis nesciunt.</p> -->
-           
-
-           <div class="social_29128 white mt-5">
-            <a href="#"><span class="icon-facebook"></span></a>
-            <a href="#"><span class="icon-facebook"></span></a>  
-            <a href="#"><span class="icon-instagram"></span></a>  
-            <a href="#"><span class="icon-twitter"></span></a>  
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
-  
-
-    <!-- <div class="site-section">
-      <div class="container">
-        <div class="row mb-5 ">
-          <div class="col-md-7 text-center mx-auto">
-            <span class="subtitle-39293">See The Video</span>
-            <h2 class="serif">See The Video</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-
-            <a href="https://vimeo.com/191947042" data-fancybox  class="btn-video_38929">
-              <span><span class="icon-play"></span></span>
-              <img src="{{ asset ('capture/images/img_1.jpg')}}" alt="Image" class="img-fluid">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    
+    </div>  
+    <!-- END .site-section -->
 
     <footer class="site-footer">
       <div class="container">
@@ -181,6 +133,7 @@
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <!-- <button type="button" value="btnWa" class="btn btn-primary" id="btnWa">Kirim Bukti</button> -->
             </p>
             </div>
           </div>
@@ -208,7 +161,11 @@
 
     <script src="{{ asset ('capture/js/main.js')}}"></script>
 
+<script> 
+$('button').click(function(){
+   window.location.href='https://api.whatsapp.com/send?phone=6281385433322&text=Hai%20saya%20{$nama}%20ingin%20memesan%20Wedding%20Organizer%20untuk%20tanggal%20{$tanggal}%20dan%20untuk%20{$jumUndangan}%20undangan,%20lokasi%20berada%20di%20alamat%20{$alamat}';
+})
+</script> 
   </body>
 
 </html>
-

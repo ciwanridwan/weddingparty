@@ -61,8 +61,8 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li><a href="{{ route('index')}}" class="nav-link">Home</a></li>
                   <li><a href="{{ route('about')}}" class="nav-link">About</a></li>
-                  <li><a href="{{ route('photograpy')}}" class="nav-link">Photography</a></li>
-                  <li class="active"><a href="{{ route('blog')}}" class="nav-link">Event</a></li>
+                  <li class="active"><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
+                  <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
                   <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
@@ -81,7 +81,7 @@
             <div class="col-md-7">
               <h1 class="mb-3 text-primary">Daftar Paket</h1>
               <p> Silahkan Scroll Kebawah Untuk Melihat Daftar Paket Yang Disediakan</p>
-              <p><a href="#" class="btn btn-primary">Contact Me</a></p>
+              <p><a href="{{ route('contact')}}" class="btn btn-primary">Contact Me</a></p>
             </div>
           </div>
         </div>
@@ -97,8 +97,8 @@
 
         <div class="row mb-5 ">
           <div class="col-md-7 text-center mx-auto">
-            <span class="subtitle-39293">My Works</span>
-            <h2 class="serif">See My Works</h2>
+            <!-- <span class="subtitle-39293">My Works</span> -->
+            <h2 class="serif">Liat Daftar Paket</h2>
           </div>
         </div>
        
@@ -113,14 +113,12 @@
                 
                 <h1><a style="text-align:center;" href="{{ route('index')}}">Silver</a></h1>
                 <br>
-                <!-- <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p> -->
             <h3 style="text-align:center;">Rp 7.500.000</h3>
             <h3 style="text-align:center;">6 Crew WO</h3>
             <h3 style="text-align:center;">+- 350 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <button href="{{ route('detail-paket')}}" style="text-align:center;" width="30px" type="submit">Beli Paket</button>  
+            <a href="{{ route('detail-paket')}}" class="btn btn-primary" type="submit">Beli Paket</a>  
             </div>
             </div>
           </div>
@@ -134,14 +132,12 @@
                 
                 <h1><a style="text-align:center;" href="{{ route('index')}}">Gold</a></h1>
                 <br>   
-                <!-- <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p> -->
             <h3 style="text-align:center;">Rp 9.500.000</h3>
             <h3 style="text-align:center;">8 Crew WO</h3>
             <h3 style="text-align:center;">+- 450 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <button href="{{ route('detail-paket')}}" style="text-align:center;" width="30px" type="submit">Beli Paket</button>
+            <a href="{{ route('detail-paket')}}" class="btn btn-primary" type="submit">Beli Paket</a>
             </div>
             </div>
           </div>
@@ -156,30 +152,19 @@
                 
                 <h1><a style="text-align:center;" href="{{ route('index')}}">Platinum</a></h1>
                 <br>
-                <!-- <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p> -->
             <h3 style="text-align:center;">Rp 12.500.000</h3>
             <h3 style="text-align:center;">10 Crew WO</h3>
             <h3 style="text-align:center;">+- 600 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <button href="{{ url('detail-paket')}}" style="text-align:center;" width="30px" type="submit">Beli Paket</button>
+            <a href="{{ route('detail-paket')}}" type="submit" class="btn btn-primary">Beli Paket</a>
             </div>
             </div>
           </div>
-
         </div>
-
-        
-        <!-- <div class="col-12 mt-5 text-center">
-          <span class="p-3">1</span>
-          <a href="#" class="p-3">2</a>
-          <a href="#" class="p-3">3</a>
-          <a href="#" class="p-3">4</a>
-        </div> -->
-        
       </div>
-    </div> <!-- END .site-section -->
+    </div> 
+    <!-- END .site-section -->
     
     
 

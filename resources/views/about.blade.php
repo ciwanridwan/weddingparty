@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Weddin Organizer</title>
+    <title>Wedding Organizer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -80,8 +80,8 @@
           <div class="row align-items-center">
             <div class="col-md-7">
               <h1 class="mb-3 text-primary">About Us</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
-              <p><a href="#" class="btn btn-primary">Contact Me</a></p>
+              <p>Menyediakan Berbagai Informasi Seputar Toko Wedding Organizer Yang Ada Di Jakarta Selatan.</p>
+              <p><a href="{{ route('contact')}}" class="btn btn-primary">Contact Me</a></p>
             </div>
           </div>
         </div>

@@ -2,24 +2,24 @@
 <html lang="en">
 
   <head>
-    <title>Capture &mdash; Website Template by Colorlib</title>
+    <title>Wedding Organizer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Muli:400,700|Hepta+Slab:400,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{{ asset('capture/fonts/icomoon/style.css')}}">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{{ asset('capture/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/jquery.fancybox.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/fonts/flaticon/font/flaticon.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/aos.css')}}">
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('capture/css/style.css')}}">
 
   </head>
 
@@ -46,7 +46,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="index.html" class="font-weight-bold">Capture</a>
+                <a href="{{ route('index')}}" class="font-weight-bold">Capture</a>
               </div>
             </div>
 
@@ -59,11 +59,11 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="photography.html" class="nav-link">Photography</a></li>
-                  <li><a href="blog.html" class="nav-link">Event</a></li>
-                  <li class="active"><a href="contact.html" class="nav-link">Contact</a></li>
+                  <li><a href="{{ route('index')}}" class="nav-link">Home</a></li>
+                  <li><a href="{{ route('about')}}" class="nav-link">About</a></li>
+                  <li><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
+                  <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
+                  <li class="active"><a href="{{('contact')}}" class="nav-link">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -75,13 +75,12 @@
       </header>
 
     <div class="ftco-blocks-cover-1">
-      <div class="site-section-cover overlay" style="background-image: url('images/hero_1.jpg')">
+      <div class="site-section-cover overlay" style="background-image: url('capture/images/hero_1.jpg')">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <h1 class="mb-3 text-primary">Contact</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
-              <p><a href="#" class="btn btn-primary">Contact Me</a></p>
+              <p>Hubungi Kami Bila Perlu Kami</p>
+              <p><a href="{{ route('contact')}}" class="btn btn-primary">Contact Me</a></p>
             </div>
           </div>
         </div>
@@ -138,9 +137,9 @@
               <ul class="list-unstyled footer-link">
                 <li class="d-block mb-3">
                   <span class="d-block text-black">Address:</span>
-                  <span>34 Street Name, City Name Here, United States</span></li>
-                <li class="d-block mb-3"><span class="d-block text-black">Phone:</span><span>+1 242 4942 290</span></li>
-                <li class="d-block mb-3"><span class="d-block text-black">Email:</span><span>info@yourdomain.com</span></li>
+                  <span>Jln. Raya Margonda Kota Depok</span></li>
+                <li class="d-block mb-3"><span class="d-block text-black">Phone:</span><span>+6281394321856</span></li>
+                <li class="d-block mb-3"><span class="d-block text-black">Email:</span><span>ridwan.andalus79@gmail.com</span></li>
               </ul>
             </div>
           </div>
@@ -156,7 +155,7 @@
         <div class="row">
           <div class="col-lg-3">
             <h2 class="footer-heading mb-3">About Me</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <p>Website Wedding Organizer Sederhana</p>
           </div>
           <div class="col-lg-8 ml-auto">
             <div class="row">
@@ -198,22 +197,22 @@
 
     </div>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/aos.js"></script>
+    <script src="{{ asset ('capturejs/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/jquery-migrate-3.0.0.js')}}"></script>
+    <script src="{{ asset ('capturejs/popper.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/bootstrap.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/jquery.sticky.js')}}"></script>
+    <script src="{{ asset ('capturejs/jquery.waypoints.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/jquery.animateNumber.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/jquery.fancybox.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/jquery.stellar.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/jquery.easing.1.3.js')}}"></script>
+    <script src="{{ asset ('capturejs/bootstrap-datepicker.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ asset ('capturejs/aos.js')}}"></script>
 
-    <script src="js/main.js"></script>
+    <script src="{{ asset ('capturejs/main.js')}}"></script>
 
   </body>
 

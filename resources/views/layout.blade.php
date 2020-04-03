@@ -46,7 +46,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="index.html" class="font-weight-bold">Capture</a>
+                <a href="{{ route('index')}}" class="font-weight-bold">Capture</a>
               </div>
             </div>
 
@@ -82,7 +82,7 @@
               <!-- <p>Halo, Selamat Datang</p> -->
               <h1 class="mb-3 text-primary"> Halaman Pendaftaran</h1>
               <!-- <p> Semua informasi tentang toko Wedding organizer ada disini, yuk scroll ke bawah ya!</p> -->
-              <p><a href="#" class="btn btn-primary">Contact Me</a></p>
+              <p><a href="{{ route('contact')}}" class="btn btn-primary">Contact Me</a></p>
             </div>
           </div>
         </div>

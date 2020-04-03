@@ -14,19 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('layout-success');
 });
+
+// Route::get('event', 'WeddingController@event')->name('event');
+// Route::get('photograpy', 'WeddingController@photograpy')->name('photograpy');
+// Route::get('blog', 'WeddingController@blog')->name('blog');
 
 Route::get('index', 'WeddingController@index')->name('index');
 Route::get('about', 'WeddingController@about')->name('about');
-Route::get('event', 'WeddingController@event')->name('event');
-Route::get('photograpy', 'WeddingController@photograpy')->name('photograpy');
-Route::get('contact', 'WeddingController@contact')->name('contact');
-Route::get('blog', 'WeddingController@blog')->name('blog');
-
 Route::get('daftar-paket', 'WeddingController@daftarPaket')->name('daftar-paket');
-Route::get('detail-paket', 'WeddingController@detailPaket')->name('detail-paket');
 Route::post('form-paket', 'WeddingController@store')->name('store');
 Route::get('form-paket', 'WeddingController@create')->name('form-paket');
+Route::get('contact', 'WeddingController@contact')->name('contact');
+Route::get('detail-paket', 'WeddingController@detailPaket')->name('detail-paket');
 
 

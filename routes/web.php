@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layout-success');
+    return view('index');
 });
 
 // Route::get('event', 'WeddingController@event')->name('event');

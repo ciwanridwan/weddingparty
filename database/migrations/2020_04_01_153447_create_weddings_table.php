@@ -17,9 +17,10 @@ class CreateWeddingsTable extends Migration
             $table->id();
             $table->string('nama_lengkap');
             $table->string('alamat_rumah');
-            $table->string('tanggal_resepsi');
-            $table->string('jumlah_undangan');
+            $table->date('tanggal_resepsi');
+            $table->integer('jumlah_undangan');
             $table->string('tempat_acara');
+            $table->longText('kendala');
             $table->timestamps();
         });
     }

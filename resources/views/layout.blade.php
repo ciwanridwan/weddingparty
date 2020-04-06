@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>Pendaftaran</title>
+    <title>Wedding Organizer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -94,7 +94,7 @@
       <div class="container">
         <div class="row mb-5 ">
           <div class="col-md-7 text-center mx-auto">
-            <span class="subtitle-39293">Silahkan Isi Form Pendaftaran Dibawah Ini!</span>
+            <!-- <span class="subtitle-39293">Silahkan Isi Form Pendaftaran Dibawah Ini!</span> -->
             <!-- <h2 class="serif">Scroll Ke Bawah Ya!</h2> -->
           </div>
         </div>
@@ -167,6 +167,13 @@
     <script src="{{ asset ('capture/js/aos.js')}}"></script>
 
     <script src="{{ asset ('capture/js/main.js')}}"></script>
+    <script> 
+$('button').click(function(){
+  console.log($('nama_lengkap').val());
+   window.location.href='https://api.whatsapp.com/send?phone=6281385433322&text=Hai%20saya%20{nama_lengkap}%20{jumlah_undangan}%20{tempat_acara}%20{tangal_resepsi}%20{alamat_rumah}%20{kendala}';
+  //  window.location.href='https://api.whatsapp.com/send?phone=6281385433322&text=Hai%20saya%20' + $('#nama_lengkap').val() + "%20" + $('#jumlah_undangan').val() + $('#tempat_acara').val() + $('#tanggal_resepsi').val() + $('#alamat_rumah').val()
+})
+</script> 
 
   </body>
 

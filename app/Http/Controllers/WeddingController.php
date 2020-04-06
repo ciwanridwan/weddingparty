@@ -74,10 +74,11 @@ class WeddingController extends Controller
             'tanggal_resepsi' => 'required|date',
             'jumlah_undangan' => 'required|numeric',
             'tempat_acara' => 'required',
+            'kendala' => 'required|string:max255'
         ]);
         $wedding = Wedding::Create($validatedData);
 
-        return view('oke')->with('Success, Selamat Data Berhasil Ditambah');
+        return view('layout-success')->with('Success, Selamat Data Berhasil Ditambah');
     }
 
     /**

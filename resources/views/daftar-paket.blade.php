@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="{{ asset ('capture/fonts/icomoon/style.css')}}">
 
-    <link rel="stylesheet" href="{{ asset('capture/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/bootstrap.min2.css')}}">
     <link rel="stylesheet" href="{{ asset('capture/css/bootstrap-datepicker.css')}}">
     <link rel="stylesheet" href="{{ asset('capture/css/jquery.fancybox.min.css')}}">
     <link rel="stylesheet" href="{{ asset('capture/css/owl.carousel.min.css')}}">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{{ asset('capture/css/aos.css')}}">
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="{{ asset('capture/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/style2.css')}}">
 
   </head>
 
@@ -118,8 +118,8 @@
             <h3 style="text-align:center;">+- 350 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <a href="{{ route('detail-paket')}}" class="btn btn-primary" type="submit">Beli Paket</a>  
             </div>
+            <a href="{{ route('detail-paket')}}"  class="btn btn-primary" type="submit">Beli Paket</a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
@@ -137,8 +137,8 @@
             <h3 style="text-align:center;">+- 450 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <a href="{{ route('detail-paket')}}" class="btn btn-primary" type="submit">Beli Paket</a>
             </div>
+            <a href="{{ route('detail-paket')}}" class="btn btn-primary" type="submit">Beli Paket</a>
             </div>
           </div>
 
@@ -157,8 +157,8 @@
             <h3 style="text-align:center;">+- 600 Undangan</h3>
             <h3 style="text-align:center;">Half Day</h3>
             <h3 style="text-align:center;">(8 Jam Kerja)</h3>
-            <a href="{{ route('detail-paket')}}" type="submit" class="btn btn-primary">Beli Paket</a>
             </div>
+            <a href="{{ route('detail-paket')}}" type="submit" class="btn btn-primary">Beli Paket</a>
             </div>
           </div>
         </div>

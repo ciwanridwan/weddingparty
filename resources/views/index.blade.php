@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="{{ asset('capture/fonts/icomoon/style.css')}}">
 
-    <link rel="stylesheet" href="{{ asset('capture/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('capture/css/bootstrap.min3.css')}}">
     <link rel="stylesheet" href="{{ asset('capture/css/bootstrap-datepicker.css')}}">
     <link rel="stylesheet" href="{{ asset('capture/css/jquery.fancybox.min.css')}}">
     <link rel="stylesheet" href="{{ asset('capture/css/owl.carousel.min.css')}}">
@@ -108,13 +108,13 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="{{ route('daftar-paket')}}">
-                <img src="{{ asset ('capture/poto/His/8.jpg')}}" alt="Image"
+              <a href="{{ route('paket-his')}}">
+                <img src="{{ asset ('capture/poto/His/4.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="{{ route('daftar-paket')}}">HIS Wedding</a></h2>
+                <h2><a href="{{ route('paket-his')}}">HIS Wedding</a></h2>
                 <span class="meta d-inline-block mb-3">April 17, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Menyediakan berbagai paket untuk keperluan wedding.</p>
               </div>
@@ -122,13 +122,13 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="{{ route('daftar-paket')}}">
-                <img src="{{ asset ('capture/poto/Agung/1.jpg')}}" alt="Image"
+              <a href="{{ route('paket-agung')}}">
+                <img src="{{ asset ('capture/poto/Agung/8.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="{{ route('daftar-paket')}}">Agung Wedding</a></h2>
+                <h2><a href="{{ route('paket-agung')}}">Agung Wedding</a></h2>
                 <span class="meta d-inline-block mb-3">Mei 11, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Tersedia decorasi yang amat sangat unik, dan menyediakan panggung.</p>
               </div>
@@ -137,27 +137,29 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="{{ route('daftar-paket')}}">
-                <img src="{{ asset ('capture/poto/Hera/4.jpg')}}" alt="Image"
+              <a href="{{ route('paket-hera')}}">
+                <img src="{{ asset ('capture/poto/Hera/hera.jpeg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="{{ route('daftar-paket')}}">Hera Organizer</a></h2>
+                <h2><a href="{{ route('paket-hera')}}">Hera Organizer</a></h2>
                 <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
-                <p>Hera Organizer ini sudah terpercaya oleh pihak manapun, kami menyediakan paket wedding yang murah</p>
+                <p>Hera Weeding Organizer <br>Np HP : 081319266521 <br> Alamat : Tebet utara III no 7, South Jakarta, 12820
+                <br> Instagram : <a href="https://www.instagram.com/hera_griyapengantin/?utm_source=ig_embed">https://www.instagram.com/hera_griyapengantin/?utm_source=ig_embed </a>
+                </p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="{{ route('daftar-paket')}}">
-                <img src="{{ asset ('capture/poto/Keane/1.jpg')}}" alt="Image"
+              <a href="{{ route('paket-keane')}}">
+                <img src="{{ asset ('capture/poto/Keane/tigapagi.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="{{ route('daftar-paket')}}">Keane Wedding</a></h2>
+                <h2><a href="{{ route('paket-keane')}}">Tiga Pagi Keane Wedding</a></h2>
                 <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Pelayanan terbaik untuk para peminat Keane Wedding.</p>
               </div>
@@ -165,13 +167,13 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="{{ route('daftar-paket')}}">
-                <img src="{{ asset ('capture/poto/Pangeran/2.jpg')}}" alt="Image"
+              <a href="{{ route('paket-pangeran')}}">
+                <img src="{{ asset ('capture/poto/Pangeran/3.jpg')}}" alt="Image" height="50px"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="{{ route('daftar-paket')}}">Pangeran Wedding</a></h2>
+                <h2><a href="{{ route('paket-pangeran')}}">Pangeran Wedding</a></h2>
                 <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Panggung gratis, decorasi unik, kateringpun kami menyediakan.</p>
               </div>
@@ -179,13 +181,13 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              <a href="{{ route('daftar-paket')}}">
-                <img src="{{ asset ('capture/poto/Pangeran/9.jpg')}}" alt="Image"
+              <a href="{{ route('paket-khalifa')}}">
+                <img src="{{ asset ('capture/poto/Keane/2.jpg')}}" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="{{ route('daftar-paket')}}">Dinda Sakato Organizer</a></h2>
+                <h2><a href="{{ route('paket-khalifa')}}">Khalifa Wedding Organizer</a></h2>
                 <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
                 <p>Ciri khas kami ialah tradisional, hayu mari diliat tentang Dinda Sakato ini.</p>
               </div>

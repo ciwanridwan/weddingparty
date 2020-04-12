@@ -101,8 +101,8 @@
          <div class="col-md-5 ml-auto">
            <h3 class="text-white mb-5">Isi Paket</h3>
            <blockquote class="quote-29281">
-            <p>1. Menjadi mediator antara calon pengantin, panitia acara dan para vendor. <br>2. Pembuatan rundown acara. <br>3. Pelaksanaan Tehnical Meeting, dengan keluarga, panitia acara dan vendor. 
-            <br>4. Pengaturan langsung terhadap jalannya acara. <br>5. Pemantauan terhadap akurasi pekerjaan para vendor.
+            <p>1. Menjadi mediator antara calon pengantin, panitia acara dan para vendor. <br>2. Pembuatan rundown acara. <br>3. Pelaksanaan Tehnical Meeting, dengan keluarga, panitia acara dan vendor. <br> 4. MC Nasional   
+            <br>5. Pengaturan langsung terhadap jalannya acara. <br>6. Pemantauan terhadap akurasi pekerjaan para vendor. <br> 7. Unlimited Meeting <br> 8. Wedding Report
         </p>
            </blockquote>
            <a href="{{ route('form-paket')}}" type="submit" class="btn btn-primary"> Booking Now </a>
@@ -120,29 +120,6 @@
        </div>
      </div>
    </div>
-  
-
-    <!-- <div class="site-section">
-      <div class="container">
-        <div class="row mb-5 ">
-          <div class="col-md-7 text-center mx-auto">
-            <span class="subtitle-39293">See The Video</span>
-            <h2 class="serif">See The Video</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-
-            <a href="https://vimeo.com/191947042" data-fancybox  class="btn-video_38929">
-              <span><span class="icon-play"></span></span>
-              <img src="{{ asset ('capture/images/img_1.jpg')}}" alt="Image" class="img-fluid">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    
 
     <footer class="site-footer">
       <div class="container">

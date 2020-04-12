@@ -8,6 +8,56 @@ use PhpParser\Node\Expr\FuncCall;
 
 class WeddingController extends Controller
 {
+    public function detailHera()
+    {
+        return view('detail-hera');
+    }
+
+    public function detailKeane()
+    {
+        return view('detail-keane');
+    }
+
+    public function detailHis()
+    {
+        return view('detail-his');
+    }
+
+    public function detailAgung()
+    {
+        return view('detail-agung');
+    }
+
+    public function detailPangeran()
+    {
+        return view('detail-pangeran');
+    }
+
+    public function detailKhalifa()
+    {
+        return view('detail-khalifa');
+    }
+
+    public function paketKhalifa()
+    {
+        return view('paket-khalifa');
+    }
+    public function paketPangeran()
+    {
+        return view('paket-pangeran');
+    }
+    public function paketAgung()
+    {
+        return view('paket-agung');
+    }
+    public function paketKeane()
+    {
+        return view('paket-keane');
+    }
+    public function paketHera()
+    {
+        return view('paket-hera');
+    }
     public function isiPaket()
     {
         return view('isi-paket');
@@ -24,9 +74,9 @@ class WeddingController extends Controller
     {
         return view('blog');
     }
-    public function photograpy()
+    public function paketHis()
     {
-        return view('photograpy');
+        return view('paket-his');
     }
     public function event()
     {

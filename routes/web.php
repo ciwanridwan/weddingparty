@@ -24,9 +24,22 @@ Route::get('/', function () {
 Route::get('index', 'WeddingController@index')->name('index');
 Route::get('about', 'WeddingController@about')->name('about');
 Route::get('daftar-paket', 'WeddingController@daftarPaket')->name('daftar-paket');
+Route::get('paket-hera', 'WeddingController@paketHera')->name('paket-hera');
+Route::get('paket-his', 'WeddingController@paketHis')->name('paket-his');
+Route::get('paket-agung', 'WeddingController@paketAgung')->name('paket-agung');
+Route::get('paket-keane', 'WeddingController@paketKeane')->name('paket-keane');
+Route::get('paket-pangeran', 'WeddingController@paketPangeran')->name('paket-pangeran');
+Route::get('paket-khalifa', 'WeddingController@paketKhalifa')->name('paket-khalifa');
 Route::post('form-paket', 'WeddingController@store')->name('store');
 Route::get('form-paket', 'WeddingController@create')->name('form-paket');
 Route::get('contact', 'WeddingController@contact')->name('contact');
-Route::get('detail-paket', 'WeddingController@detailPaket')->name('detail-paket');
 
+// isi paket
+Route::get('detail-paket', 'WeddingController@detailPaket')->name('detail-paket');
+Route::get('detail-his', 'WeddingController@detailHis')->name('detail-his');
+Route::get('detail-agung', 'WeddingController@detailAgung')->name('detail-agung');
+Route::get('detail-keane', 'WeddingController@detailKeane')->name('detail-keane');
+Route::get('detail-pangeran', 'WeddingController@detailPangeran')->name('detail-pangeran');
+Route::get('detail-hera', 'WeddingController@detailHera')->name('detail-hera');
+Route::get('detail-khalifa', 'WeddingController@detailKhalifa')->name('detail-khalifa');
 

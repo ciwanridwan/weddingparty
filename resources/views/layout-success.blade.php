@@ -20,4 +20,13 @@
       </div>
     </div>
 @endsection
-    
+
+@section('js')
+<script> 
+      $('button').click(function(){
+  console.log($('nama_lengkap').val());
+   window.location.href='https://api.whatsapp.com/send?phone=6281385433322&text=Hai%20saya%20{nama_lengkap}%20{jumlah_undangan}%20{tempat_acara}%20{tangal_resepsi}%20{alamat_rumah}%20{kendala}';
+  //  window.location.href='https://api.whatsapp.com/send?phone=6281385433322&text=Hai%20saya%20' + $('#nama_lengkap').val() + "%20" + $('#jumlah_undangan').val() + $('#tempat_acara').val() + $('#tanggal_resepsi').val() + $('#alamat_rumah').val()
+})
+</script>
+@endsection

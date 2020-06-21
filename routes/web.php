@@ -14,14 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('admin.login');
 });
 
-// Route::get('event', 'WeddingController@event')->name('event');
-// Route::get('photograpy', 'WeddingController@photograpy')->name('photograpy');
-// Route::get('blog', 'WeddingController@blog')->name('blog');
 
 Route::get('index', 'WeddingController@index')->name('index');
+Route::get('logout', 'WeddingController@logout')->name('logout');
+Route::get('home', 'WeddingController@admin')->name('home');
+Route::get('login', 'WeddingController@login')->name('login');
+Route::post('store-login', 'WeddingController@storeLogin')->name('store-login');
+Route::get('register', 'WeddingController@register')->name('register');
+Route::post('store-register', 'WeddingController@storeRegister')->name('store-register');
+Route::get('/toko', 'WeddingController@tokoForm')->name('toko');
+Route::post('/toko/create', 'WeddingController@createToko')->name('toko.create');
+
 Route::get('about', 'WeddingController@about')->name('about');
 Route::get('daftar-paket', 'WeddingController@daftarPaket')->name('daftar-paket');
 Route::get('paket-hera', 'WeddingController@paketHera')->name('paket-hera');

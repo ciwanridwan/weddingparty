@@ -46,7 +46,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="{{ route('index')}}" class="font-weight-bold">Capture</a>
+                <a href="{{ route('index')}}" class="font-weight-bold"></a>
               </div>
             </div>
 
@@ -64,6 +64,7 @@
                   <li class="active"><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
                   <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
                   <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
+                  <li><a href="{{ route('login')}}" class="nav-link">Admin</a></li>
                 </ul>
               </nav>
             </div>

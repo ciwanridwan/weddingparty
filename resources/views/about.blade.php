@@ -46,7 +46,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="{{ route('index')}}" class="font-weight-bold">Capture</a>
+                <a href="{{ route('index')}}" class="font-weight-bold"></a>
               </div>
             </div>
 
@@ -64,6 +64,7 @@
                   <li><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
                   <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
                   <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
+                  <li><a href="{{ route('login')}}" class="nav-link">Admin</a></li>
                 </ul>
               </nav>
             </div>
@@ -79,7 +80,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-7">
-              <h1 class="mb-3 text-primary">About Us</h1>
+              <h1 class="mb-3 text-primary">Tentang Kami</h1>
               <p>Menyediakan Berbagai Informasi Seputar Toko Wedding Organizer Yang Ada Di Jakarta Selatan.</p>
               <p><a href="{{ route('contact')}}" class="btn btn-primary">Contact Me</a></p>
             </div>
@@ -99,13 +100,12 @@
            <img src="{{ asset ('capture/images/about_1.jpg')}}" alt="Image" class="img-fluid">
          </div>
          <div class="col-md-5 ml-auto">
-           <h3 class="text-white mb-5">About Me</h3>
+           <h3 class="text-white mb-5">Tentang Kami</h3>
            <blockquote class="quote-29281">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, perferendis iste vitae, culpa eveniet enim porro ratione. Maxime, eos repellendus natus. Esse modi necessitatibus nesciunt!
+            <p>Ini Website Toko Informasi Wedding Organizer
             </p>
            </blockquote>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia nesciunt quas, laudantium ex rem voluptas quod, distinctio eum tenetur. Placeat, quisquam, consequatur. Quam expedita neque nostrum iusto commodi minima!</p>
-           <p>Omnis, aspernatur, incidunt cum quo, nisi harum ea earum suscipit delectus explicabo unde saepe commodi modi fugiat nihil sint nam. Ullam, esse totam mollitia molestias ipsum odio aperiam, officiis nesciunt.</p>
+           
            
 
            <div class="social_29128 white mt-5">
@@ -118,74 +118,7 @@
      </div>
    </div>
   
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5 ">
-          <div class="col-md-7 text-center mx-auto">
-            <span class="subtitle-39293">See The Video</span>
-            <h2 class="serif">See The Video</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-
-            <a href="https://vimeo.com/191947042" data-fancybox  class="btn-video_38929">
-              <span><span class="icon-play"></span></span>
-              <img src="{{ asset ('capture/images/img_1.jpg')}}" alt="Image" class="img-fluid">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
     
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <h2 class="footer-heading mb-3">About Me</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-          </div>
-          <div class="col-lg-8 ml-auto">
-            <div class="row">
-              <div class="col-lg-6 ml-auto">
-                <h2 class="footer-heading mb-4">Quick Links</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Privacy</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <h2 class="footer-heading mb-4">Newsletter</h2>
-                <form action="#" class="d-flex" class="subscribe">
-                  <input type="text" class="form-control mr-3" placeholder="Email">
-                  <input type="submit" value="Send" class="btn btn-primary">
-                </form>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-
     </div>
 
     <script src="{{ asset ('capture/js/jquery-3.3.1.min.js')}}"></script>

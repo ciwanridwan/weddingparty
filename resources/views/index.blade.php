@@ -46,7 +46,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="{{ route('index')}}" class="font-weight-bold">Capture</a>
+                <a href="{{ route('index')}}" class="font-weight-bold"></a>
               </div>
             </div>
 
@@ -64,6 +64,7 @@
                   <li><a href="{{ route('daftar-paket')}}" class="nav-link">Paket</a></li>
                   <li><a href="{{ route('form-paket')}}" class="nav-link">Daftar</a></li>
                   <li><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
+                  <li><a href="{{ route('login')}}" class="nav-link">Admin</a></li>
                 </ul>
               </nav>
             </div>
@@ -95,8 +96,12 @@
         <div class="row mb-5 ">
           <div class="col-md-7 text-center mx-auto">
             <span class="subtitle-39293">Lihat Semua Informasi Toko Wedding Organizer</span>
+            @if ($status == 1)
             <h2 class="serif">Scroll Ke Bawah Ya!</h2>
           </div>
+          @else
+          <h2 class="serif">Upss, toko belum tersedia atau belum di input</h2>
+          @endif
         </div>
 
         </div>
@@ -108,140 +113,103 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
+              @foreach ($toko as $p)
               <a href="{{ route('paket-his')}}">
-                <img src="{{ asset ('capture/poto/His/4.jpg')}}" alt="Image"
+                <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
-                
-                <h2><a href="{{ route('paket-his')}}">HIS Wedding</a></h2>
-                <span class="meta d-inline-block mb-3">April 17, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
-                <p>Menyediakan berbagai paket untuk keperluan wedding.</p>
+                <h2><a href="{{ route('paket-his')}}">{{$p->nama_toko}}</a></h2>
+                <span class="meta d-inline-block mb-3">{{$p->created_at}} <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
+                <p>{{$p->deskripsi}}</p>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="post-entry-1 h-100">
-              <a href="{{ route('paket-agung')}}">
-                <img src="{{ asset ('capture/poto/Agung/8.jpg')}}" alt="Image"
-                 class="img-fluid">
-              </a>
-              <div class="post-entry-1-contents">
-                
-                <h2><a href="{{ route('paket-agung')}}">Agung Wedding</a></h2>
-                <span class="meta d-inline-block mb-3">Mei 11, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
-                <p>Tersedia decorasi yang amat sangat unik, dan menyediakan panggung.</p>
-              </div>
+              @endforeach
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
+              @foreach ($toko2 as $p)
+              <a href="{{ route('paket-agung')}}">
+                <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">    
+                <h2><a href="{{ route('paket-agung')}}">{{$p->nama_toko}}</a></h2>
+                <span class="meta d-inline-block mb-3">{{$p->created_at}} <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
+                <p>{{$p->deskripsi}}</p>
+              </div>
+              @endforeach
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              @foreach ($toko3 as $p)
               <a href="{{ route('paket-hera')}}">
-                <img src="{{ asset ('capture/poto/Hera/hera.jpeg')}}" alt="Image"
+                <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
-                
-                <h2><a href="{{ route('paket-hera')}}">Hera Organizer</a></h2>
-                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
-                <p>Hera Weeding Organizer <br>Np HP : 081319266521 <br> Alamat : Tebet utara III no 7, South Jakarta, 12820
-                <br> Instagram : <a href="https://www.instagram.com/hera_griyapengantin/?utm_source=ig_embed">https://www.instagram.com/hera_griyapengantin/?utm_source=ig_embed </a>
+                <h2><a href="{{ route('paket-hera')}}">{{$p->nama_toko}}</a></h2>
+                <span class="meta d-inline-block mb-3">{{$p->created_at}} <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
+                <p>{{$p->deskripsi}}
                 </p>
               </div>
+              @endforeach
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
+              @foreach ($toko4 as $p)
               <a href="{{ route('paket-keane')}}">
-                <img src="{{ asset ('capture/poto/Keane/tigapagi.jpg')}}" alt="Image"
+                <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
                 
-                <h2><a href="{{ route('paket-keane')}}">Tiga Pagi Keane Wedding</a></h2>
-                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
-                <p>Pelayanan terbaik untuk para peminat Keane Wedding.</p>
+                <h2><a href="{{ route('paket-keane')}}">{{$p->nama_toko}}</a></h2>
+                <span class="meta d-inline-block mb-3">{{$p->created_at}} <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
+                <p>{{$p->deskripsi}}</p>
               </div>
+              @endforeach
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
+              @foreach ($toko5 as $p)
               <a href="{{ route('paket-pangeran')}}">
-                <img src="{{ asset ('capture/poto/Pangeran/3.jpg')}}" alt="Image" height="50px"
+                <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}" height="50px"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
-                
-                <h2><a href="{{ route('paket-pangeran')}}">Pangeran Wedding</a></h2>
-                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
-                <p>Panggung gratis, decorasi unik, kateringpun kami menyediakan.</p>
+                <h2><a href="{{ route('paket-pangeran')}}">{{$p->nama_toko}}</a></h2>
+                <span class="meta d-inline-block mb-3">{{$p->created_at}} <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
+                <p>{{$p->deskripsi}}</p>
               </div>
+              @endforeach
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
+              @foreach ($toko6 as $p)
               <a href="{{ route('paket-khalifa')}}">
-                <img src="{{ asset ('capture/poto/Keane/2.jpg')}}" alt="Image"
+                <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
-                
-                <h2><a href="{{ route('paket-khalifa')}}">Khalifa Wedding Organizer</a></h2>
-                <span class="meta d-inline-block mb-3">June 18, 2020 <span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
-                <p>Ciri khas kami ialah tradisional, hayu mari diliat tentang Dinda Sakato ini.</p>
+                <h2><a href="{{ route('paket-khalifa')}}">{{$p->nama_toko}}</a></h2>
+                <span class="meta d-inline-block mb-3">{{$p->created_at}}<span class="mx-2">by</span> <a href="{{ route('daftar-paket')}}">Admin</a></span>
+                <p>{{$p->deskripsi}}</p>
               </div>
+              @endforeach
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="site-footer">
-      <div class="container">
-        @yield('konten')
-        <div class="row">
-          <div class="col-lg-3">
-            <h2 class="footer-heading mb-3">About Me</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-          </div>
-          <div class="col-lg-8 ml-auto">
-            <div class="row">
-              <div class="col-lg-6 ml-auto">
-                <h2 class="footer-heading mb-4">Quick Links</h2>
-                <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Privacy</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <h2 class="footer-heading mb-4">Newsletter</h2>
-                <form action="#" class="d-flex" class="subscribe">
-                  <input type="text" class="form-control mr-3" placeholder="Email">
-                  <input type="submit" value="Send" class="btn btn-primary">
-                </form>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="border-top pt-5">
-              <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
+    
 
     </div>
 

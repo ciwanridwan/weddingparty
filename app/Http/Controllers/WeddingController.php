@@ -2,12 +2,102 @@
 
 namespace App\Http\Controllers;
 
+
+use File;
+use App\Toko;
+use App\Admin;
 use App\Wedding;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use PhpParser\Node\Expr\FuncCall;
 
 class WeddingController extends Controller
 {
+    public function logout()
+    {
+        $out = Toko::logout();
+        return redirect(route('index'))->with($out);
+    }
+    public function tokoForm()
+    {
+        return view('admin.create');
+    }
+    public function createToko(Request $request)
+    {
+        $this->validate($request, [
+            'nama_toko' => 'required|string|max:255',
+            'logo_toko' => 'required|image|mimes:png,jpeg,jpg',
+            'lokasi' => 'required|string',
+            'jumlah_paket' => 'required|numeric',
+            'deskripsi' => 'required|string',
+        ]);
+
+        if ($request->hasFile('logo_toko')) {
+            $file = $request->file('logo_toko');
+            $filename = time() . Str::slug($request->nama_toko) . '.' . $file->getClientOriginalExtension();
+            $file->storeAs('public/toko', $filename);
+
+            $data = Toko::create([
+                'nama_toko' => $request->nama_toko,
+                'logo_toko' => $filename,
+                'lokasi' => $request->lokasi,
+                'jumlah_paket' => $request->jumlah_paket,
+                'deskripsi' => $request->deskripsi,
+                'status' => true
+            ]);
+            return redirect(route('home'))->with(['success' => 'Selamat data toko berhasil ditambah']);
+        }
+        // $admin = Toko::Create($data);
+
+        // return redirect(route('admin.home'))->with('success', 'Selamat data toko berhasil di tambah');   
+    }
+
+    public function login()
+    {
+        return view('admin.login');
+    }
+
+    public function admin()
+    {
+        $toko = Toko::all();
+        if (request()->q != '') {
+            $toko = $toko->where('nama_toko', 'LIKE', '%' . request()->q . '%');
+        }
+        
+        return view('admin.home', compact('toko'));
+    }
+
+    public function register()
+    {
+        return view('admin.register');
+    }
+
+    public function storeLogin(Request $request)
+    {
+        $validasi = $request->validate([
+            'nama' => 'required|exists:admins,nama',
+            'password' => 'required|exists:admins,password'
+        ]);
+        if (Admin::where('nama', $request->nama)->where('password', $request->password)->exists())
+        {
+            return redirect(route('home'));
+        }
+        return view('admin.login')->with('error', 'Username/password anda salah');
+    }
+
+    public function storeRegister(Request $request)
+    {
+        $data = $request->validate([
+            'nama' => 'required|string|max:255',
+            'email' => 'required|email',
+            'password' => 'required|confirmed|min:6'
+            
+        ]);
+        $admin = Admin::Create($data);
+
+        return redirect(route('login'))->with('success', 'Selamat Berhasil Registrasi, Silahkan Login');
+    }
+
     public function detailHera()
     {
         return view('detail-hera');
@@ -97,7 +187,14 @@ class WeddingController extends Controller
      */
     public function index()
     {
-        return view('index');
+        $status = Toko::exists('status');
+        $toko = Toko::where('id', 1)->get();
+        $toko2 = Toko::where('id', 2)->get();
+        $toko3 = Toko::where('id', 3)->get();
+        $toko4 = Toko::where('id', 4)->get();
+        $toko5 = Toko::where('id', 5)->get();
+        $toko6 = Toko::where('id', 6)->get();
+        return view('index', compact('toko', 'toko2', 'toko2', 'toko3', 'toko4', 'toko5', 'toko6', 'status'));
     }
 
     /**

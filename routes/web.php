@@ -13,12 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('admin.login');
-});
+// Route::get('/', function () {
+//     return view('index');
+// });
 
 
-Route::get('index', 'WeddingController@index')->name('index');
+Route::get('/', 'WeddingController@index')->name('index');
+// Route::get('index', 'WeddingController@index')->name('index');
 Route::get('logout', 'WeddingController@logout')->name('logout');
 Route::get('home', 'WeddingController@admin')->name('home');
 Route::get('login', 'WeddingController@login')->name('login');

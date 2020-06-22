@@ -40,7 +40,7 @@
 
           <div class="col-3 ">
             <div class="site-logo">
-              <a href="{{ route('index')}}" class="font-weight-bold">Capture</a>
+              <a href="{{ route('index')}}" class="font-weight-bold"></a>
             </div>
           </div>
           @include('layout.header')

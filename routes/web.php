@@ -28,6 +28,10 @@ Route::get('register', 'WeddingController@register')->name('register');
 Route::post('store-register', 'WeddingController@storeRegister')->name('store-register');
 Route::get('/toko', 'WeddingController@tokoForm')->name('toko');
 Route::post('/toko/create', 'WeddingController@createToko')->name('toko.create');
+Route::get('/{toko}', 'WeddingController@edit')->name('edit');
+Route::put('update/{id}', 'WeddingController@update')->name('update');
+Route::delete('hapus/{id}', 'WeddingController@destroy')->name('delete');
+
 
 Route::get('about', 'WeddingController@about')->name('about');
 Route::get('daftar-paket', 'WeddingController@daftarPaket')->name('daftar-paket');

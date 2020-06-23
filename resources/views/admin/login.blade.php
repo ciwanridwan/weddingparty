@@ -65,3 +65,4 @@
         </div>
       </div> 
       <!-- END .site-section -->
+@endsection

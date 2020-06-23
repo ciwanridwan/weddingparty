@@ -188,13 +188,8 @@ class WeddingController extends Controller
     public function index()
     {
         $status = Toko::exists('status');
-        $toko = Toko::where('id', 1)->get();
-        $toko2 = Toko::where('id', 2)->get();
-        $toko3 = Toko::where('id', 3)->get();
-        $toko4 = Toko::where('id', 4)->get();
-        $toko5 = Toko::where('id', 5)->get();
-        $toko6 = Toko::where('id', 6)->get();
-        return view('index', compact('toko', 'toko2', 'toko2', 'toko3', 'toko4', 'toko5', 'toko6', 'status'));
+        $toko = Toko::all();
+        return view('index', compact('toko', 'status'));
     }
 
     /**
@@ -245,9 +240,9 @@ class WeddingController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Toko $toko)
     {
-        //
+        return view('admin.edit', compact('toko'));
     }
 
     /**
@@ -259,8 +254,18 @@ class WeddingController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $validasi = $request->validate([
+            'nama_toko' => 'required|string',
+            'logo_toko' => 'required|image|mimes:png,jpg,jpeg',
+            'lokasi' => 'required|string',
+            'jumlah_paket' => 'required|numeric',
+            'deskripsi' => 'required|string'
+        ]);
+        Toko::whereId($id)->update($validasi);
+
+        return redirect(route('home'))->with('success', 'Data berhasil diperbaharui');
     }
+
 
     /**
      * Remove the specified resource from storage.
@@ -270,6 +275,9 @@ class WeddingController extends Controller
      */
     public function destroy($id)
     {
-        //
-    }
+       $pengantar = Toko::findOrFail($id);
+       $pengantar->delete();
+
+       return redirect()->back()->with('success', 'Data Berhasil Dihapus');
+   }
 }

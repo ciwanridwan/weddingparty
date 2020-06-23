@@ -113,7 +113,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              @foreach ($toko as $p)
+              @foreach ($toko->where('id', 1) as $p)
               <a href="{{ route('paket-his')}}">
                 <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">
@@ -129,7 +129,7 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              @foreach ($toko2 as $p)
+              @foreach ($toko->where('id', 2) as $p)
               <a href="{{ route('paket-agung')}}">
                 <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">
@@ -145,7 +145,7 @@
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              @foreach ($toko3 as $p)
+              @foreach ($toko->where('id', 3) as $p)
               <a href="{{ route('paket-hera')}}">
                 <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">
@@ -161,7 +161,7 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              @foreach ($toko4 as $p)
+              @foreach ($toko->where('id', 4) as $p)
               <a href="{{ route('paket-keane')}}">
                 <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">
@@ -177,7 +177,7 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              @foreach ($toko5 as $p)
+              @foreach ($toko->where('id', 5) as $p)
               <a href="{{ route('paket-pangeran')}}">
                 <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}" height="50px"
                  class="img-fluid">
@@ -192,7 +192,7 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
-              @foreach ($toko6 as $p)
+              @foreach ($toko->where('id', 6) as $p)
               <a href="{{ route('paket-khalifa')}}">
                 <img src="{{ asset('storage/toko/' . $p->logo_toko) }}" alt="{{$p->nama_toko}}"
                  class="img-fluid">

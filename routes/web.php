@@ -20,6 +20,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'WeddingController@index')->name('index');
 // Route::get('index', 'WeddingController@index')->name('index');
+
+Route::get('detail-paket', 'WeddingController@detailPaket')->name('detail-paket');
+Route::get('detail-his', 'WeddingController@detailHis')->name('detail-his');
+Route::get('detail-agung', 'WeddingController@detailAgung')->name('detail-agung');
+Route::get('detail-keane', 'WeddingController@detailKeane')->name('detail-keane');
+Route::get('detail-pangeran', 'WeddingController@detailPangeran')->name('detail-pangeran');
+Route::get('detail-hera', 'WeddingController@detailHera')->name('detail-hera');
+Route::get('detail-khalifa', 'WeddingController@detailKhalifa')->name('detail-khalifa');
+
+Route::get('about', 'WeddingController@about')->name('about');
+Route::get('daftar-paket', 'WeddingController@daftarPaket')->name('daftar-paket');
+Route::get('contact', 'WeddingController@contact')->name('contact');
+Route::get('form-paket', 'WeddingController@create')->name('form-paket');
+Route::post('form-paket', 'WeddingController@store')->name('store');
 Route::get('logout', 'WeddingController@logout')->name('logout');
 Route::get('home', 'WeddingController@admin')->name('home');
 Route::get('login', 'WeddingController@login')->name('login');
@@ -39,18 +53,5 @@ Route::put('update/{id}', 'WeddingController@update')->name('update');
 Route::delete('hapus/{id}', 'WeddingController@destroy')->name('delete');
 
 
-Route::get('about', 'WeddingController@about')->name('about');
-Route::get('daftar-paket', 'WeddingController@daftarPaket')->name('daftar-paket');
-Route::post('form-paket', 'WeddingController@store')->name('store');
-Route::get('form-paket', 'WeddingController@create')->name('form-paket');
-Route::get('contact', 'WeddingController@contact')->name('contact');
 
-// isi paket
-Route::get('detail-paket', 'WeddingController@detailPaket')->name('detail-paket');
-Route::get('detail-his', 'WeddingController@detailHis')->name('detail-his');
-Route::get('detail-agung', 'WeddingController@detailAgung')->name('detail-agung');
-Route::get('detail-keane', 'WeddingController@detailKeane')->name('detail-keane');
-Route::get('detail-pangeran', 'WeddingController@detailPangeran')->name('detail-pangeran');
-Route::get('detail-hera', 'WeddingController@detailHera')->name('detail-hera');
-Route::get('detail-khalifa', 'WeddingController@detailKhalifa')->name('detail-khalifa');
 
